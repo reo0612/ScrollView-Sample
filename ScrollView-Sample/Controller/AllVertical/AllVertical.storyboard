@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ch8-Zc-jD9">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -20,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="44" width="428" height="848"/>
                                 <subviews>
                                     <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQ2-eC-hO4">
-                                        <rect key="frame" x="0.0" y="0.0" width="1500" height="850"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1500" height="848"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="1500" id="6R3-in-xRK"/>
                                         </constraints>
@@ -30,7 +31,7 @@
                                     </containerView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="hQ2-eC-hO4" firstAttribute="height" secondItem="sSr-PL-KiJ" secondAttribute="height" multiplier="1.00272" id="1UL-Mk-7MB"/>
+                                    <constraint firstItem="hQ2-eC-hO4" firstAttribute="height" secondItem="sSr-PL-KiJ" secondAttribute="height" id="1UL-Mk-7MB"/>
                                     <constraint firstItem="hQ2-eC-hO4" firstAttribute="trailing" secondItem="B3c-vQ-a6G" secondAttribute="trailing" id="6TI-Yt-5uC"/>
                                     <constraint firstItem="hQ2-eC-hO4" firstAttribute="leading" secondItem="B3c-vQ-a6G" secondAttribute="leading" id="Bes-6T-RjQ"/>
                                     <constraint firstItem="hQ2-eC-hO4" firstAttribute="bottom" secondItem="B3c-vQ-a6G" secondAttribute="bottom" id="Ss3-bo-gib"/>
@@ -59,13 +60,14 @@
             <objects>
                 <viewController id="x1M-YV-fK0" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jtq-Ei-dZg">
-                        <rect key="frame" x="0.0" y="0.0" width="1500" height="850"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1500" height="848"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SeaI" translatesAutoresizingMaskIntoConstraints="NO" id="8fV-2P-aFP">
-                                <rect key="frame" x="0.0" y="0.0" width="1500" height="850"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1500" height="848"/>
                             </imageView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="gaU-9j-NOA"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="8fV-2P-aFP" secondAttribute="trailing" id="CE7-7F-0z7"/>
                             <constraint firstAttribute="bottom" secondItem="8fV-2P-aFP" secondAttribute="bottom" id="mEQ-AM-2eV"/>
