@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D52256CC88800AB3A1F /* AppDelegate.swift */; };
-		83704D57256CC88800AB3A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D56256CC88800AB3A1F /* ViewController.swift */; };
 		83704D5A256CC88800AB3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D58256CC88800AB3A1F /* Main.storyboard */; };
 		83704D5C256CC88B00AB3A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83704D5B256CC88B00AB3A1F /* Assets.xcassets */; };
 		83704D5F256CC88B00AB3A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D5D256CC88B00AB3A1F /* LaunchScreen.storyboard */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		83704D4F256CC88800AB3A1F /* ScrollView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83704D52256CC88800AB3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83704D56256CC88800AB3A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83704D59256CC88800AB3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83704D5B256CC88B00AB3A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83704D5E256CC88B00AB3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 				83704DA7256DDDEC00AB3A1F /* AllVertical */,
 				83704DA1256DDD8C00AB3A1F /* AllHorizontal */,
 				83704D8B256CC97900AB3A1F /* SimpleScroll */,
-				83704D56256CC88800AB3A1F /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83704D57256CC88800AB3A1F /* ViewController.swift in Sources */,
 				83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */,
 				83704D8D256CC99300AB3A1F /* ScrollViewController.swift in Sources */,
 				83704DA9256DDE1500AB3A1F /* AllVerticalViewController.swift in Sources */,
