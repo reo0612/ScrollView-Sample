@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D52256CC88800AB3A1F /* AppDelegate.swift */; };
-		83704D55256CC88800AB3A1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D54256CC88800AB3A1F /* SceneDelegate.swift */; };
 		83704D57256CC88800AB3A1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D56256CC88800AB3A1F /* ViewController.swift */; };
 		83704D5A256CC88800AB3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D58256CC88800AB3A1F /* Main.storyboard */; };
 		83704D5C256CC88B00AB3A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83704D5B256CC88B00AB3A1F /* Assets.xcassets */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		83704D4F256CC88800AB3A1F /* ScrollView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83704D52256CC88800AB3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83704D54256CC88800AB3A1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83704D56256CC88800AB3A1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83704D59256CC88800AB3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83704D5B256CC88B00AB3A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				83704D86256CC92800AB3A1F /* View */,
 				83704D85256CC91E00AB3A1F /* Controller */,
 				83704D52256CC88800AB3A1F /* AppDelegate.swift */,
-				83704D54256CC88800AB3A1F /* SceneDelegate.swift */,
 				83704D58256CC88800AB3A1F /* Main.storyboard */,
 				83704D5B256CC88B00AB3A1F /* Assets.xcassets */,
 				83704D5D256CC88B00AB3A1F /* LaunchScreen.storyboard */,
@@ -329,7 +326,6 @@
 			files = (
 				83704D57256CC88800AB3A1F /* ViewController.swift in Sources */,
 				83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */,
-				83704D55256CC88800AB3A1F /* SceneDelegate.swift in Sources */,
 				83704D8D256CC99300AB3A1F /* ScrollViewController.swift in Sources */,
 				83704DA9256DDE1500AB3A1F /* AllVerticalViewController.swift in Sources */,
 				83704D9D256DDD6200AB3A1F /* HorizontalViewController.swift in Sources */,
@@ -438,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -493,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -511,6 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S4Q54QAMM;
 				INFOPLIST_FILE = "ScrollView-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -530,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8S4Q54QAMM;
 				INFOPLIST_FILE = "ScrollView-Sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
