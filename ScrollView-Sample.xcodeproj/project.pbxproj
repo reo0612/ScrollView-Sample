@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		835AE02E256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AE02D256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift */; };
 		835AE036256F2E0200A4A50F /* ScrollStackHorizontal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AE035256F2E0200A4A50F /* ScrollStackHorizontal.storyboard */; };
+		835AE04B256F4B0800A4A50F /* ScrollStackVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AE04A256F4B0800A4A50F /* ScrollStackVerticalViewController.swift */; };
+		835AE050256F4B1300A4A50F /* ScrollStackVertical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AE04F256F4B1300A4A50F /* ScrollStackVertical.storyboard */; };
 		83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D52256CC88800AB3A1F /* AppDelegate.swift */; };
 		83704D5A256CC88800AB3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D58256CC88800AB3A1F /* Main.storyboard */; };
 		83704D5C256CC88B00AB3A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83704D5B256CC88B00AB3A1F /* Assets.xcassets */; };
@@ -43,6 +45,8 @@
 /* Begin PBXFileReference section */
 		835AE02D256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackHorizontalViewController.swift; sourceTree = "<group>"; };
 		835AE035256F2E0200A4A50F /* ScrollStackHorizontal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollStackHorizontal.storyboard; sourceTree = "<group>"; };
+		835AE04A256F4B0800A4A50F /* ScrollStackVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackVerticalViewController.swift; sourceTree = "<group>"; };
+		835AE04F256F4B1300A4A50F /* ScrollStackVertical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollStackVertical.storyboard; sourceTree = "<group>"; };
 		83704D4F256CC88800AB3A1F /* ScrollView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83704D52256CC88800AB3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83704D59256CC88800AB3A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,6 +99,15 @@
 				835AE035256F2E0200A4A50F /* ScrollStackHorizontal.storyboard */,
 			);
 			path = ScrollStackHorizontal;
+			sourceTree = "<group>";
+		};
+		835AE046256F4A5700A4A50F /* ScrollStackVertical */ = {
+			isa = PBXGroup;
+			children = (
+				835AE04A256F4B0800A4A50F /* ScrollStackVerticalViewController.swift */,
+				835AE04F256F4B1300A4A50F /* ScrollStackVertical.storyboard */,
+			);
+			path = ScrollStackVertical;
 			sourceTree = "<group>";
 		};
 		83704D46256CC88800AB3A1F = {
@@ -157,6 +170,7 @@
 				83704DA1256DDD8C00AB3A1F /* AllHorizontal */,
 				83704D8B256CC97900AB3A1F /* SimpleScroll */,
 				835AE02C256F2D9E00A4A50F /* ScrollStackHorizontal */,
+				835AE046256F4A5700A4A50F /* ScrollStackVertical */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -309,6 +323,7 @@
 				835AE036256F2E0200A4A50F /* ScrollStackHorizontal.storyboard in Resources */,
 				83704DA3256DDDBA00AB3A1F /* AllHorizontal.storyboard in Resources */,
 				83704D5F256CC88B00AB3A1F /* LaunchScreen.storyboard in Resources */,
+				835AE050256F4B1300A4A50F /* ScrollStackVertical.storyboard in Resources */,
 				83704D5C256CC88B00AB3A1F /* Assets.xcassets in Resources */,
 				83704D5A256CC88800AB3A1F /* Main.storyboard in Resources */,
 				83704D95256CC9A500AB3A1F /* Scroll.storyboard in Resources */,
@@ -340,6 +355,7 @@
 				83704D8D256CC99300AB3A1F /* ScrollViewController.swift in Sources */,
 				83704DA9256DDE1500AB3A1F /* AllVerticalViewController.swift in Sources */,
 				83704D9D256DDD6200AB3A1F /* HorizontalViewController.swift in Sources */,
+				835AE04B256F4B0800A4A50F /* ScrollStackVerticalViewController.swift in Sources */,
 				835AE02E256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

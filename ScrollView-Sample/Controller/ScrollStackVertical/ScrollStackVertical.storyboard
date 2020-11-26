@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KL3-HX-bIp">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="THD-eC-IOi">
+            <objects>
+                <viewController id="KL3-HX-bIp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Xa-fi-fCj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gRW-eF-lkT">
+                                <rect key="frame" x="0.0" y="44" width="375" height="734"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="I36-bY-46x">
+                                        <rect key="frame" x="0.0" y="0.0" width="1125" height="734"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ハムスター" translatesAutoresizingMaskIntoConstraints="NO" id="ww7-ij-tTQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="734"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="とり" translatesAutoresizingMaskIntoConstraints="NO" id="Jsc-kO-m7A">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="734"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="レッサー" translatesAutoresizingMaskIntoConstraints="NO" id="1z2-K6-Duq">
+                                                <rect key="frame" x="750" y="0.0" width="375" height="734"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="I36-bY-46x" firstAttribute="bottom" secondItem="44b-Bz-Snf" secondAttribute="bottom" id="1Au-Zr-ewA"/>
+                                    <constraint firstItem="I36-bY-46x" firstAttribute="trailing" secondItem="44b-Bz-Snf" secondAttribute="trailing" id="DbG-Hz-cCi"/>
+                                    <constraint firstItem="I36-bY-46x" firstAttribute="height" secondItem="gRW-eF-lkT" secondAttribute="height" id="NFY-vl-8eH"/>
+                                    <constraint firstItem="Jsc-kO-m7A" firstAttribute="width" secondItem="gRW-eF-lkT" secondAttribute="width" id="Sfc-0x-LlH"/>
+                                    <constraint firstItem="ww7-ij-tTQ" firstAttribute="width" secondItem="gRW-eF-lkT" secondAttribute="width" id="ULw-Ab-cVP"/>
+                                    <constraint firstItem="I36-bY-46x" firstAttribute="leading" secondItem="44b-Bz-Snf" secondAttribute="leading" id="oOL-69-DQy"/>
+                                    <constraint firstItem="I36-bY-46x" firstAttribute="top" secondItem="44b-Bz-Snf" secondAttribute="top" id="w6g-kx-Nc9"/>
+                                    <constraint firstItem="1z2-K6-Duq" firstAttribute="width" secondItem="gRW-eF-lkT" secondAttribute="width" id="wLt-eN-y1q"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="44b-Bz-Snf"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="eNS-Jq-w8p"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="81U-rw-58q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gRW-eF-lkT" firstAttribute="leading" secondItem="81U-rw-58q" secondAttribute="leading" id="6t4-YD-I3O"/>
+                            <constraint firstItem="gRW-eF-lkT" firstAttribute="trailing" secondItem="81U-rw-58q" secondAttribute="trailing" id="Zxv-xr-wau"/>
+                            <constraint firstItem="gRW-eF-lkT" firstAttribute="bottom" secondItem="81U-rw-58q" secondAttribute="bottom" id="mKB-cf-cwQ"/>
+                            <constraint firstItem="gRW-eF-lkT" firstAttribute="top" secondItem="81U-rw-58q" secondAttribute="top" id="pdn-Cd-EmV"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qc4-s9-ccR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-323.1884057971015" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="とり" width="510" height="340"/>
+        <image name="ハムスター" width="510" height="340"/>
+        <image name="レッサー" width="1600" height="1066"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
