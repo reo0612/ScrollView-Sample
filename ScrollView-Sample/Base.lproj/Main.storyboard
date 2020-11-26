@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="muk-oQ-RkZ">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--ScrollView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollView_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9C-8r-HSf">
@@ -21,30 +22,46 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="ujJ-Pq-hyX">
-                                <rect key="frame" x="121.66666666666669" y="369.66666666666669" width="185" height="187.00000000000006"/>
+                                <rect key="frame" x="102.66666666666669" y="251.66666666666663" width="185" height="341"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrJ-0O-rOz">
-                                        <rect key="frame" x="23.999999999999986" y="0.0" width="137" height="33"/>
+                                        <rect key="frame" x="24" y="0.0" width="137" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="VerticalScrollView"/>
                                         <connections>
-                                            <segue destination="Ock-Lv-VMm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="Xvb-C2-E1F"/>
+                                            <segue destination="Ock-Lv-VMm" kind="show" id="Xvb-C2-E1F"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWw-dC-Xx1">
-                                        <rect key="frame" x="9.9999999999999858" y="77" width="165" height="33"/>
+                                        <rect key="frame" x="10" y="77.000000000000028" width="165" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="All Vertical ScrollView"/>
                                         <connections>
-                                            <segue destination="01Y-nA-94N" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="uqG-aP-H2e"/>
+                                            <segue destination="01Y-nA-94N" kind="show" id="uqG-aP-H2e"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ef2-bw-AD4">
-                                        <rect key="frame" x="0.0" y="153.99999999999994" width="185" height="33"/>
+                                        <rect key="frame" x="0.0" y="154.00000000000003" width="185" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="All Horizontal ScrollView"/>
                                         <connections>
-                                            <segue destination="jLC-1n-JeX" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Wj7-2C-91g"/>
+                                            <segue destination="jLC-1n-JeX" kind="show" id="Wj7-2C-91g"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cU-fz-86N">
+                                        <rect key="frame" x="10.333333333333329" y="231.00000000000003" width="164" height="32.999999999999972"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="ScrollStackHorizontal"/>
+                                        <connections>
+                                            <segue destination="RkY-Fc-dV5" kind="show" id="DCu-gy-eRO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgO-5n-BWZ">
+                                        <rect key="frame" x="21" y="308" width="143" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="ScrollStackVertical"/>
+                                        <connections>
+                                            <segue destination="zii-TG-UAG" kind="show" id="32e-dH-Kin"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -57,10 +74,11 @@
                             <constraint firstItem="ujJ-Pq-hyX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pNe-L3-KOS"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="ScrollView" id="Wpj-4P-wX0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
+            <point key="canvasLocation" x="918.2242990654205" y="93.30453563714903"/>
         </scene>
         <!--Scroll-->
         <scene sceneID="KrE-zV-M2d">
@@ -70,23 +88,65 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ahm-RV-jQk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="723" y="-30"/>
+            <point key="canvasLocation" x="1610" y="-152"/>
         </scene>
         <!--AllVertical-->
         <scene sceneID="K3r-vt-Kb6">
             <objects>
-                <viewControllerPlaceholder storyboardName="AllVertical" id="01Y-nA-94N" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="AllVertical" id="01Y-nA-94N" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="r7F-l0-TOM"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhJ-Gq-P3R" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="723" y="93"/>
+            <point key="canvasLocation" x="1610" y="-22"/>
         </scene>
         <!--AllHorizontal-->
         <scene sceneID="gE6-Pw-3CU">
             <objects>
-                <viewControllerPlaceholder storyboardName="AllHorizontal" id="jLC-1n-JeX" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="AllHorizontal" id="jLC-1n-JeX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="33r-l0-4v3"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7ea-Z1-bo8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="723" y="202"/>
+            <point key="canvasLocation" x="1622" y="93"/>
+        </scene>
+        <!--ScrollStackHorizontal-->
+        <scene sceneID="2RJ-bH-YRk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ScrollStackHorizontal" id="RkY-Fc-dV5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="T50-BB-lbe"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OP7-Zm-3Sb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622" y="186"/>
+        </scene>
+        <!--ScrollStackVertical-->
+        <scene sceneID="uws-jD-qUU">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ScrollStackVertical" id="zii-TG-UAG" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bcS-7d-wMB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U2Z-Dy-xCA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622" y="299"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ge1-4D-HIw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="muk-oQ-RkZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WIF-xz-kgA">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JNW-2e-HPr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7FD-Ll-vLt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.22429906542056" y="93.30453563714903"/>
         </scene>
     </scenes>
     <resources>
