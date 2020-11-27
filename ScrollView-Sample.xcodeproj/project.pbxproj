@@ -23,6 +23,7 @@
 		83704DA3256DDDBA00AB3A1F /* AllHorizontal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704DA2256DDDBA00AB3A1F /* AllHorizontal.storyboard */; };
 		83704DA9256DDE1500AB3A1F /* AllVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704DA8256DDE1500AB3A1F /* AllVerticalViewController.swift */; };
 		83704DB1256DDE2A00AB3A1F /* AllVertical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704DB0256DDE2A00AB3A1F /* AllVertical.storyboard */; };
+		839E1F13257090510047CF7B /* ImageScrollStack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E1F12257090510047CF7B /* ImageScrollStack.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		83704DA2256DDDBA00AB3A1F /* AllHorizontal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllHorizontal.storyboard; sourceTree = "<group>"; };
 		83704DA8256DDE1500AB3A1F /* AllVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVerticalViewController.swift; sourceTree = "<group>"; };
 		83704DB0256DDE2A00AB3A1F /* AllVertical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllVertical.storyboard; sourceTree = "<group>"; };
+		839E1F12257090510047CF7B /* ImageScrollStack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageScrollStack.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				83704D8B256CC97900AB3A1F /* SimpleScroll */,
 				835AE02C256F2D9E00A4A50F /* ScrollStackHorizontal */,
 				835AE046256F4A5700A4A50F /* ScrollStackVertical */,
+				839E1F11257090280047CF7B /* ImageScrollStack */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,14 @@
 				83704DB0256DDE2A00AB3A1F /* AllVertical.storyboard */,
 			);
 			path = AllVertical;
+			sourceTree = "<group>";
+		};
+		839E1F11257090280047CF7B /* ImageScrollStack */ = {
+			isa = PBXGroup;
+			children = (
+				839E1F12257090510047CF7B /* ImageScrollStack.storyboard */,
+			);
+			path = ImageScrollStack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +337,7 @@
 				835AE050256F4B1300A4A50F /* ScrollStackVertical.storyboard in Resources */,
 				83704D5C256CC88B00AB3A1F /* Assets.xcassets in Resources */,
 				83704D5A256CC88800AB3A1F /* Main.storyboard in Resources */,
+				839E1F13257090510047CF7B /* ImageScrollStack.storyboard in Resources */,
 				83704D95256CC9A500AB3A1F /* Scroll.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
