@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="muk-oQ-RkZ">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollView_Sample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9C-8r-HSf">
@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="ujJ-Pq-hyX">
-                                <rect key="frame" x="102.66666666666669" y="251.66666666666663" width="185" height="341"/>
+                                <rect key="frame" x="95" y="197" width="185" height="418"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrJ-0O-rOz">
                                         <rect key="frame" x="24" y="0.0" width="137" height="33"/>
@@ -33,7 +33,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWw-dC-Xx1">
-                                        <rect key="frame" x="10" y="77.000000000000028" width="165" height="33"/>
+                                        <rect key="frame" x="10" y="77" width="165" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="All Vertical ScrollView"/>
                                         <connections>
@@ -41,7 +41,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ef2-bw-AD4">
-                                        <rect key="frame" x="0.0" y="154.00000000000003" width="185" height="33"/>
+                                        <rect key="frame" x="0.0" y="154" width="185" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="All Horizontal ScrollView"/>
                                         <connections>
@@ -49,7 +49,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cU-fz-86N">
-                                        <rect key="frame" x="10.333333333333329" y="231.00000000000003" width="164" height="32.999999999999972"/>
+                                        <rect key="frame" x="10.666666666666671" y="231" width="164" height="33"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <state key="normal" title="ScrollStackHorizontal"/>
                                         <connections>
@@ -62,6 +62,14 @@
                                         <state key="normal" title="ScrollStackVertical"/>
                                         <connections>
                                             <segue destination="zii-TG-UAG" kind="show" id="32e-dH-Kin"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATz-HS-TLs">
+                                        <rect key="frame" x="26" y="385" width="133" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="ImageScrollStack"/>
+                                        <connections>
+                                            <segue destination="yf4-IU-KH7" kind="show" id="Qfc-P0-dKv"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -136,7 +144,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="muk-oQ-RkZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WIF-xz-kgA">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -147,6 +155,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7FD-Ll-vLt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="18.22429906542056" y="93.30453563714903"/>
+        </scene>
+        <!--ImageScrollStack-->
+        <scene sceneID="tlE-1m-ebz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ImageScrollStack" id="yf4-IU-KH7" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ppw-Fq-yaD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7bz-BP-lg9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622" y="383"/>
         </scene>
     </scenes>
     <resources>
