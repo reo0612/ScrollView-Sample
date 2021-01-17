@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		835AE02E256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AE02D256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift */; };
 		835AE036256F2E0200A4A50F /* ScrollStackHorizontal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AE035256F2E0200A4A50F /* ScrollStackHorizontal.storyboard */; };
-		835AE04B256F4B0800A4A50F /* ScrollStackVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835AE04A256F4B0800A4A50F /* ScrollStackVerticalViewController.swift */; };
 		835AE050256F4B1300A4A50F /* ScrollStackVertical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AE04F256F4B1300A4A50F /* ScrollStackVertical.storyboard */; };
 		83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D52256CC88800AB3A1F /* AppDelegate.swift */; };
 		83704D5A256CC88800AB3A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D58256CC88800AB3A1F /* Main.storyboard */; };
@@ -17,11 +15,8 @@
 		83704D5F256CC88B00AB3A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D5D256CC88B00AB3A1F /* LaunchScreen.storyboard */; };
 		83704D6A256CC88C00AB3A1F /* ScrollView_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D69256CC88C00AB3A1F /* ScrollView_SampleTests.swift */; };
 		83704D75256CC88C00AB3A1F /* ScrollView_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D74256CC88C00AB3A1F /* ScrollView_SampleUITests.swift */; };
-		83704D8D256CC99300AB3A1F /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D8C256CC99300AB3A1F /* ScrollViewController.swift */; };
 		83704D95256CC9A500AB3A1F /* Scroll.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704D94256CC9A500AB3A1F /* Scroll.storyboard */; };
-		83704D9D256DDD6200AB3A1F /* HorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704D9C256DDD6200AB3A1F /* HorizontalViewController.swift */; };
 		83704DA3256DDDBA00AB3A1F /* AllHorizontal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704DA2256DDDBA00AB3A1F /* AllHorizontal.storyboard */; };
-		83704DA9256DDE1500AB3A1F /* AllVerticalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83704DA8256DDE1500AB3A1F /* AllVerticalViewController.swift */; };
 		83704DB1256DDE2A00AB3A1F /* AllVertical.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83704DB0256DDE2A00AB3A1F /* AllVertical.storyboard */; };
 		839E1F13257090510047CF7B /* ImageScrollStack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839E1F12257090510047CF7B /* ImageScrollStack.storyboard */; };
 /* End PBXBuildFile section */
@@ -44,9 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		835AE02D256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackHorizontalViewController.swift; sourceTree = "<group>"; };
 		835AE035256F2E0200A4A50F /* ScrollStackHorizontal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollStackHorizontal.storyboard; sourceTree = "<group>"; };
-		835AE04A256F4B0800A4A50F /* ScrollStackVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollStackVerticalViewController.swift; sourceTree = "<group>"; };
 		835AE04F256F4B1300A4A50F /* ScrollStackVertical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollStackVertical.storyboard; sourceTree = "<group>"; };
 		83704D4F256CC88800AB3A1F /* ScrollView-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ScrollView-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83704D52256CC88800AB3A1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,11 +53,8 @@
 		83704D70256CC88C00AB3A1F /* ScrollView-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ScrollView-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83704D74256CC88C00AB3A1F /* ScrollView_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView_SampleUITests.swift; sourceTree = "<group>"; };
 		83704D76256CC88C00AB3A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83704D8C256CC99300AB3A1F /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		83704D94256CC9A500AB3A1F /* Scroll.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scroll.storyboard; sourceTree = "<group>"; };
-		83704D9C256DDD6200AB3A1F /* HorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewController.swift; sourceTree = "<group>"; };
 		83704DA2256DDDBA00AB3A1F /* AllHorizontal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllHorizontal.storyboard; sourceTree = "<group>"; };
-		83704DA8256DDE1500AB3A1F /* AllVerticalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVerticalViewController.swift; sourceTree = "<group>"; };
 		83704DB0256DDE2A00AB3A1F /* AllVertical.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllVertical.storyboard; sourceTree = "<group>"; };
 		839E1F12257090510047CF7B /* ImageScrollStack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageScrollStack.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +87,6 @@
 		835AE02C256F2D9E00A4A50F /* ScrollStackHorizontal */ = {
 			isa = PBXGroup;
 			children = (
-				835AE02D256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift */,
 				835AE035256F2E0200A4A50F /* ScrollStackHorizontal.storyboard */,
 			);
 			path = ScrollStackHorizontal;
@@ -106,7 +95,6 @@
 		835AE046256F4A5700A4A50F /* ScrollStackVertical */ = {
 			isa = PBXGroup;
 			children = (
-				835AE04A256F4B0800A4A50F /* ScrollStackVerticalViewController.swift */,
 				835AE04F256F4B1300A4A50F /* ScrollStackVertical.storyboard */,
 			);
 			path = ScrollStackVertical;
@@ -135,9 +123,7 @@
 		83704D51256CC88800AB3A1F /* ScrollView-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				83704D87256CC93100AB3A1F /* Model */,
-				83704D86256CC92800AB3A1F /* View */,
-				83704D85256CC91E00AB3A1F /* Controller */,
+				83704D85256CC91E00AB3A1F /* Scroll */,
 				83704D52256CC88800AB3A1F /* AppDelegate.swift */,
 				83704D58256CC88800AB3A1F /* Main.storyboard */,
 				83704D5B256CC88B00AB3A1F /* Assets.xcassets */,
@@ -165,7 +151,7 @@
 			path = "ScrollView-SampleUITests";
 			sourceTree = "<group>";
 		};
-		83704D85256CC91E00AB3A1F /* Controller */ = {
+		83704D85256CC91E00AB3A1F /* Scroll */ = {
 			isa = PBXGroup;
 			children = (
 				83704DA7256DDDEC00AB3A1F /* AllVertical */,
@@ -175,27 +161,12 @@
 				835AE046256F4A5700A4A50F /* ScrollStackVertical */,
 				839E1F11257090280047CF7B /* ImageScrollStack */,
 			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		83704D86256CC92800AB3A1F /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		83704D87256CC93100AB3A1F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
+			path = Scroll;
 			sourceTree = "<group>";
 		};
 		83704D8B256CC97900AB3A1F /* SimpleScroll */ = {
 			isa = PBXGroup;
 			children = (
-				83704D8C256CC99300AB3A1F /* ScrollViewController.swift */,
 				83704D94256CC9A500AB3A1F /* Scroll.storyboard */,
 			);
 			path = SimpleScroll;
@@ -204,7 +175,6 @@
 		83704DA1256DDD8C00AB3A1F /* AllHorizontal */ = {
 			isa = PBXGroup;
 			children = (
-				83704D9C256DDD6200AB3A1F /* HorizontalViewController.swift */,
 				83704DA2256DDDBA00AB3A1F /* AllHorizontal.storyboard */,
 			);
 			path = AllHorizontal;
@@ -213,7 +183,6 @@
 		83704DA7256DDDEC00AB3A1F /* AllVertical */ = {
 			isa = PBXGroup;
 			children = (
-				83704DA8256DDE1500AB3A1F /* AllVerticalViewController.swift */,
 				83704DB0256DDE2A00AB3A1F /* AllVertical.storyboard */,
 			);
 			path = AllVertical;
@@ -364,11 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83704D53256CC88800AB3A1F /* AppDelegate.swift in Sources */,
-				83704D8D256CC99300AB3A1F /* ScrollViewController.swift in Sources */,
-				83704DA9256DDE1500AB3A1F /* AllVerticalViewController.swift in Sources */,
-				83704D9D256DDD6200AB3A1F /* HorizontalViewController.swift in Sources */,
-				835AE04B256F4B0800A4A50F /* ScrollStackVerticalViewController.swift in Sources */,
-				835AE02E256F2DE700A4A50F /* ScrollStackHorizontalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
