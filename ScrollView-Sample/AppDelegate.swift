@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  ScrollView-Sample
-//
-//  Created by 今西玲巳 on 2020/11/24.
-//
 
 import UIKit
 

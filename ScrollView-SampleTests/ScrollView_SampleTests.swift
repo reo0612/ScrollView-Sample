@@ -1,9 +1,3 @@
-//
-//  ScrollView_SampleTests.swift
-//  ScrollView-SampleTests
-//
-//  Created by 今西玲巳 on 2020/11/24.
-//
 
 import XCTest
 @testable import ScrollView_Sample
